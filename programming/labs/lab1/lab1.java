@@ -18,7 +18,6 @@ public class lab1 {
         double[][] g = new double[8][11];
         for (int i = 0; i < g.length; i++) {
             for (int j = 0; j < g[i].length; j++) {
-                //Если r[i] = 13, то g[i][j] = Math.atan(Math.cos(Math.sin(x[j]/2)));
                 if (r[i] == 13) {
                     g[i][j] = Math.atan(Math.cos(Math.sin(x[j] / 2)));
                     System.out.printf("%9.4f", g[i][j]);
